@@ -1,0 +1,29 @@
+{
+    "name": "ralphredlich/symfonia",
+    "description": "Simple application using Symfony components",
+    "type": "project",
+    "require": {
+        "symfony/http-kernel": "^7.4",
+        "symfony/http-foundation": "^7.4",
+        "symfony/event-dispatcher": "^7.4",
+        "symfony/routing": "^7.4",
+        "twig/twig": "^3.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Symfonia\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ralph-redlich",
+            "email": "ralph.redlich@pantheon.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "platform": {
+            "php": "8.3"
+        }
+    }
+}
